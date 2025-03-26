@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Tailwind Grid</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../dist/css/styles.css">
+</head>
+<body class="bg-emerald-300 h-screen">
+
+    <section class="mt-10 mx-auto w-max space-y-8">
+
+        <!-- Traditional CSS: button:hover ~ img -->
+        <!-- In Tailwind, we use the reserved word 'peer' -->
+
+        <button class="bg-blue-700 text-white p-4 w-max peer/abajo">Abajo</button>
+        <button class="bg-blue-700 text-white p-4 w-max peer/derecha">Derecha</button>
+
+        <img src="../dist/assets/images/forest.jpg" alt="Forest" class="w-40 peer-hover/abajo:translate-y-full peer-hover/derecha:translate-x-full transition-transform duration-500">
+
+    </section>
+
+</body>
+</html>

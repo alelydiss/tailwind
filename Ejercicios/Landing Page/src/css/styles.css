@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme {
+    --color-forceBlue-50: #e3ebee;
+    --color-forceBlue-100: #c7d7dd;
+    --color-forceBlue-200: #a3bbc7;
+    --color-forceBlue-300: #7f9fb1;
+    --color-forceBlue-400: #5b849b;
+    --color-forceBlue-500: #537D8D; /* Base color */
+    --color-forceBlue-600: #4a6f7e;
+    --color-forceBlue-700: #3f5f6c;
+    --color-forceBlue-800: #344f5a;
+    --color-forceBlue-900: #293f48;
+
+    --color-eggplant-50: #f2e8ed;
+    --color-eggplant-100: #dcc5d2;
+    --color-eggplant-200: #c3a0b5;
+    --color-eggplant-300: #a97a97;
+    --color-eggplant-400: #8f537a;
+    --color-eggplant-500: #482C3D; /* Base color */
+    --color-eggplant-600: #3f2736;
+    --color-eggplant-700: #351f2d;
+    --color-eggplant-800: #2b1824;
+    --color-eggplant-900: #21111b;
+    
+    --font-montserrat: 'Montserrat', sans-serif;
+}
+
+@layer components {
+    .wrapper {
+        @apply w-[90%] mx-auto max-w-screen-xl;
+    }
+}
+
+@layer base {
+    h1 {
+        font-size: var(--text-5xl);
+    }
+
+    h2 {
+        font-size: var(--text-4xl);
+    }
+}
+
+@utility flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;º
+}

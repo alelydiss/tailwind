@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Flexbox Gallery</title>
+    <link rel="stylesheet" href="../dist/css/styles.css">
+</head>
+<body>
+    <header class="bg-gray-800 text-white h-20 px-10 flex items-center justify-between">
+        <!-- logo -->
+        <h1 class="text-3xl font-bold">Logo</h1>
+        <!-- navegación -->
+        <nav class="flex gap-10">
+            <a href="#" class="text-lg ">Inicio</a>
+            <a href="#" class="text-lg ">Blog</a>
+            <a href="#" class="text-lg ">Contacto</a>
+    </header>
+
+    <h2 class="font-bold text-3xl text-center text-sky-700 my-10">Tailwind CSS Image Gallery</h2>
+
+    <section class="w-[90%] flex flex-wrap justify-center gap-6 mx-auto mt-10 p-8"> 
+        <img src="../dist/assets/images/imagen1.jpg" alt="imagen1" class="w-52 h-52 object-cover grow">
+        <img src="../dist/assets/images/imagen2.jpg" alt="imagen2" class="w-52 h-52 object-cover grow">       
+        <img src="../dist/assets/images/imagen3.jpg" alt="imagen3" class="w-52 h-52 object-cover grow">
+        <img src="../dist/assets/images/imagen4.jpg" alt="imagen4" class="w-52 h-52 object-cover grow">
+        <img src="../dist/assets/images/imagen5.jpg" alt="imagen5" class="w-52 h-52 object-cover grow">
+        <img src="../dist/assets/images/imagen6.jpg" alt="imagen6" class="w-52 h-52 object-cover grow">
+    </section>
+</body>
+</html>
